@@ -1,6 +1,6 @@
 import React from "react";
 
-const TodoList = ({ todo, setTodo, editTodo, setEditTodo }) => {
+const TodoList = ({ todo, setTodo, setEditTodo }) => {
   const handleDelete = ({ id }) => {
     setTodo(todo.filter((todos) => todos.id !== id));
   };
@@ -26,7 +26,7 @@ const TodoList = ({ todo, setTodo, editTodo, setEditTodo }) => {
           <input
             type="text"
             value={todos.title}
-            className={`list ${todo.completed ? "complete" : ""}`}
+            className={`list ${todos.completed ? "complete" : ""}`}
             onChange={(e) => e.preventDefault()}
           />
           <div>

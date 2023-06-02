@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container{
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: linear-gradient(to right bottom, #f3ab71, #c89666);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .app-wrapper{
-  background-color: #12343b;
+  background-color: #2e4a50;
   min-width: 400px;
   min-height: 600px;
   padding: 30px;
@@ -93,7 +93,7 @@
 
 .list{
   width: 220px;
-  background-color: #12343b;
+  background-color: #2e4a50;
   border:none;
   color: #ccc;
   font-size: 20px;
